@@ -22,10 +22,8 @@ spam_chats = []
 async def start(event):
   await event.reply(
       photo=f"https://te.legra.ph/file/9043613927ec946522690.jpg",
-      caption=f"""**━━━━━━━━━━━━━━━━━━━━━━ 
-━━━━━━━━━━━━━━━━━━━━━━ 🌺🌻🌹🌷━━━━━━━━━━━━━━━━━━━━━━ 
 
-    "__**ʜɪ ᴀʟʟ ɴᴇɴᴜ ᴍɪ ᴛᴀɢ ʙᴏᴛ ɴɪ**, ɴᴇɴᴜ ᴍᴇ ɢʀᴏᴜᴘ's ʟᴏ ᴛᴀɢ 🔖 ᴍᴇɴᴛɪᴏɴ ᴄʜᴇsᴛʜᴀ👻\n𝐂𝐥𝐢𝐜𝐤 **/help** 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧__\n\n 𝐅𝐨𝐥𝐥𝐨𝐰 [sᴀɴᴛʜᴏsʜ](https://t.me/santhu_music_bot) ᴛᴇʟᴇɢʀᴀᴍ ʟᴏ",
+ "__**ʜɪ ᴀʟʟ ɴᴇɴᴜ ᴍɪ ᴛᴀɢ ʙᴏᴛ ɴɪ**, ɴᴇɴᴜ ᴍᴇ ɢʀᴏᴜᴘ's ʟᴏ ᴛᴀɢ 🔖 ᴍᴇɴᴛɪᴏɴ ᴄʜᴇsᴛʜᴀ👻\n𝐂𝐥𝐢𝐜𝐤 **/help** 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧__\n\n 𝐅𝐨𝐥𝐥𝐨𝐰 [sᴀɴᴛʜᴏsʜ](https://t.me/santhu_music_bot) ᴛᴇʟᴇɢʀᴀᴍ ʟᴏ",
     link_preview=False,
     buttons=(
       [
@@ -38,9 +36,7 @@ async def start(event):
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
   photo=f"https://te.legra.ph/file/9043613927ec946522690.jpg",
-  caption=f"""**━━━━━━━━━━━━━━━━━━━━━━
-━━━━━━━━━━━━━━━━━━━━━━ 🌺🌻🌹🌷━━━━━━━━━━━━━━━━━━━━━━ 
-
+  
   helptext = "**Help Menu of 📌sᴀɴᴛʜᴜ 𝐓𝐚𝐠 𝐀𝐥𝐥 𝐁𝐨𝐭**\n\nCommand: @all\n__You can use this command with text what you want to mention others.__\nExample: `@all Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nFollow [sᴀɴᴛʜᴜ](https://t.me/santhu_music_bot) 𝗢𝗡 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠"
   await event.reply(
     helptext,
