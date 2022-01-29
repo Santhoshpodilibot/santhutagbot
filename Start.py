@@ -21,6 +21,7 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
+    "https://te.legra.ph/file/9043613927ec946522690.jpg"
     "__**ʜɪ ᴀʟʟ ɴᴇɴᴜ ᴍɪ ᴛᴀɢ ʙᴏᴛ ɴɪ**, ɴᴇɴᴜ ᴍᴇ ɢʀᴏᴜᴘ's ʟᴏ ᴛᴀɢ 🔖 ᴍᴇɴᴛɪᴏɴ ᴄʜᴇsᴛʜᴀ👻\n𝐂𝐥𝐢𝐜𝐤 **/help** 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧__\n\n 𝐅𝐨𝐥𝐥𝐨𝐰 [sᴀɴᴛʜᴏsʜ](https://t.me/santhu_music_bot) ᴛᴇʟᴇɢʀᴀᴍ ʟᴏ",
     link_preview=False,
     buttons=(
