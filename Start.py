@@ -120,7 +120,7 @@ async def cancel_spam(event):
       spam_chats.remove(event.chat_id)
     except:
       pass
-    return await event.respond('__ᴄᴀɴᴄᴇʟᴇᴅ ᴍᴇɴᴛɪᴏɴ.__')
+    return await event.respond('__ᴄᴀɴᴄᴇʟᴇᴅ ᴍᴇɴᴛɪᴏɴ❌.__')
 
 print(">> 📌sᴀɴᴛʜᴜ 𝐓𝐚𝐠 𝐀𝐥𝐥 𝐁𝐨𝐭 <<")
 client.run_until_disconnected()
