@@ -96,7 +96,7 @@ async def all(event):
     usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}) "
     if usrnum == 5:
       if mode == "text_on_cmd":
-        txt = f"{usrtxt}\n\n{msg}\n\nMade bY  [𝐒𝐮𝐦𝐢𝐭𝐘𝐚𝐝𝐚𝐯](https://youtube.com/channel/UCtI7hbY-BD7wvuIzoSU0cEw)"
+        txt = f"{usrtxt}\n\n{msg}\n\nMade bY  [sᴀɴᴛʜᴜ](https://t.me/santhu_music_bot)"
         await client.send_message(chat_id, txt)
       elif mode == "text_on_reply":
         await msg.reply(usrtxt)
@@ -111,13 +111,13 @@ async def all(event):
 @client.on(events.NewMessage(pattern="^/cancel$"))
 async def cancel_spam(event):
   if not event.chat_id in spam_chats:
-    return await event.respond('__There Is No Proccess On Going...__')
+    return await event.respond('__THERE IS NO PROCESSING MADE BY: @santhu_music_bot...__')
   else:
     try:
       spam_chats.remove(event.chat_id)
     except:
       pass
-    return await event.respond('__Stopped.__')
+    return await event.respond('__Canceled mention❌ made by: @santhu_music_bot.__')
 
 print(">> 📌sᴀɴᴛʜᴜ 𝐓𝐚𝐠 𝐀𝐥𝐥 𝐁𝐨𝐭 <<")
 client.run_until_disconnected()
