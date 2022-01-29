@@ -29,7 +29,6 @@ async def start(event):
         Button.url('ɴᴇᴛᴡᴏʀᴋ😁', 'https://t.me/santhuvc'),
         Button.url('ᴏᴡɴᴇʀ💞', 'https://t.me/santhu_music_bot')
       ]
-        Button.url('ɴᴇᴛᴡᴏʀᴋ😇', 'https://t.me/santhubotupadates'),
         Button.url('ᴍᴜsɪᴄ BOT😊', 'https://t.me/Santhuadvancemusicbot')
       [
         Button.url('ɴᴀɴᴜ ɢʀᴏᴜᴘ ʟᴏ ᴀᴅᴅ CHESUKONDI🥺', 'https://t.me/Santhutagallbot?startgroup=true'),
