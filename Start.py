@@ -23,28 +23,27 @@ async def start(event):
   await event.reply(
       photo=f"https://te.legra.ph/file/9043613927ec946522690.jpg",
 
- "__**ʜɪ ᴀʟʟ ɴᴇɴᴜ ᴍɪ ᴛᴀɢ ʙᴏᴛ ɴɪ**, ɴᴇɴᴜ ᴍᴇ ɢʀᴏᴜᴘ's ʟᴏ ᴛᴀɢ 🔖 ᴍᴇɴᴛɪᴏɴ ᴄʜᴇsᴛʜᴀ👻\n𝐂𝐥𝐢𝐜𝐤 **/help** 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧__\n\n 𝐅𝐨𝐥𝐥𝐨𝐰 [sᴀɴᴛʜᴏsʜ](https://t.me/santhu_music_bot) ᴛᴇʟᴇɢʀᴀᴍ ʟᴏ",
+    "__**𝐈'𝐦 📌sᴀɴᴛʜᴜ 𝐓𝐚𝐠 𝐀𝐥𝐥 𝐁𝐨𝐭**, 𝐢 𝐂𝐚𝐧 𝐌𝐞𝐧𝐭𝐢𝐨𝐧 𝐀𝐥𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 𝐎𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 👻\n𝐂𝐥𝐢𝐜𝐤 **/help** 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧__\n\n 𝐅𝐨𝐥𝐥𝐨𝐰 [sᴀɴᴛʜᴏsʜ](https://t.me/santhu_music_bot) 𝗢𝗻 𝐓𝐞𝐥𝐞𝐆𝐫𝐚𝐦",
     link_preview=False,
     buttons=(
       [
-        Button.url('ɴᴇᴛᴡᴏʀᴋ😁', 'https://t.me/santhuvc'),
-        Button.url('ᴏᴡɴᴇʀ💞', 'https://t.me/santhu_music_bot') 
+        Button.url('ᴏᴡɴᴇʀ💞', 'https://t.me/santhu_music_bot'),
+        Button.url('ɴᴇᴛᴡᴏʀᴋ', 'https://t.me/santhuvc')
       ]
     )
   )
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  photo=f"https://te.legra.ph/file/9043613927ec946522690.jpg",
-  
-  helptext = "**Help Menu of 📌sᴀɴᴛʜᴜ 𝐓𝐚𝐠 𝐀𝐥𝐥 𝐁𝐨𝐭**\n\nCommand: @all\n__You can use this command with text what you want to mention others.__\nExample: `@all Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nFollow [sᴀɴᴛʜᴜ](https://t.me/santhu_music_bot) 𝗢𝗡 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠"
+  helptext = "**Help Menu of 📌sᴀɴᴛʜᴜ 𝐓𝐚𝐠 𝐀𝐥𝐥 𝐁𝐨𝐭**\n\nCommand: @all\n__You can use this command with text what you want to mention others.__\nExample: `@all Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nFollow [sᴀɴᴛʜᴏsʜ](https://t.me/santhu_music_bot) 𝗢𝗡 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠"
   await event.reply(
+  photo=f"https://telegra.ph/file/f6f020ef5aeeb079b15b9.jpg",
     helptext,
     link_preview=False,
     buttons=(
       [
-        Button.url('ɴᴇᴛᴡᴏʀᴋ😁', 'https://t.me/santhuvc'),
-        Button.url('ᴏᴡɴᴇʀ💞', 'https://t.me/santhu_music_bot')
+        Button.url('ᴏᴡɴᴇʀ💞', 'https://t.me/santhu_music_bot'),
+        Button.url('ɴᴇᴛᴡᴏʀᴋ📡', 'https://t.me/santhuvc')
       ]
     )
   )
@@ -88,7 +87,7 @@ async def all(event):
     if msg == None:
         return await event.respond("__I Can't Mention Members For Older Messages! (messages which are sent before I'm added to group)__")
   else:
-    return await event.respond("__Reply To a Message Or Give Me Some Text To Mention Others\n\nMade bY  [sᴀɴᴛʜᴏsʜ](https://t.me/santhu_music_bot_")
+    return await event.respond("__Reply To a Message Or Give Me Some Text To Mention Others\n\nMade bY  [sᴀɴᴛʜᴏsʜ 😇](https://t.me/santhu_music_bot) !__")
   
   spam_chats.append(chat_id)
   usrnum = 0
@@ -100,7 +99,7 @@ async def all(event):
     usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}) "
     if usrnum == 5:
       if mode == "text_on_cmd":
-        txt = f"{usrtxt}\n\n{msg}\n\nMade bY  [sᴀɴᴛʜᴜ](https://t.me/santhu_music_bot)"
+        txt = f"{usrtxt}\n\n{msg}\n\nMade bY  [sᴀɴᴛʜᴏsʜ 😇](https://ᴛ.ᴍᴇ/santhu_music_bot)"
         await client.send_message(chat_id, txt)
       elif mode == "text_on_reply":
         await msg.reply(usrtxt)
@@ -115,13 +114,13 @@ async def all(event):
 @client.on(events.NewMessage(pattern="^/cancel$"))
 async def cancel_spam(event):
   if not event.chat_id in spam_chats:
-    return await event.respond('__THERE IS NO PROCESSING MADE BY: @santhu_music_bot...__')
+    return await event.respond('__ᴇᴍɪ ʟᴇᴅʜᴜ ʀᴀ ɴɪʙʙᴀ sᴛᴏᴘ ᴄʜᴇʏᴀᴛᴀɴɪᴋɪ...__')
   else:
     try:
       spam_chats.remove(event.chat_id)
     except:
       pass
-    return await event.respond('__Canceled mention❌ made by: @santhu_music_bot.__')
+    return await event.respond('__ᴄᴀɴᴄᴇʟᴇᴅ ᴍᴇɴᴛɪᴏɴ.__')
 
 print(">> 📌sᴀɴᴛʜᴜ 𝐓𝐚𝐠 𝐀𝐥𝐥 𝐁𝐨𝐭 <<")
 client.run_until_disconnected()
