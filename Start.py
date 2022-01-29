@@ -44,7 +44,7 @@ async def help(event):
         Button.url('ɴᴇᴛᴡᴏʀᴋ😁', 'https://t.me/santhuvc'),
         Button.url('ᴏᴡɴᴇʀ💞', 'https://t.me/santhu_music_bot')
       ]
-        Button.url('ɴᴀɴᴜ ɢʀᴏᴜᴘ ʟᴏ ᴀᴅᴅ CHESUKONDI🥺', 'https://t.me/Santhutagallbot?startgroup?=true'),
+        Button.url('ɴᴀɴᴜ ɢʀᴏᴜᴘ ʟᴏ ᴀᴅᴅ CHESUKONDI🥺', "https://t.me/Santhutagallbot?startgroup?=true")
       ]
     )
   )
