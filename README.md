@@ -30,7 +30,7 @@
 <p align="center">
     ## 𝗗𝗘𝗣𝗟𝗢𝗬 𝗢𝗡 𝗛𝗘𝗥𝗢𝗞𝗨 🚀
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Santhoshpodilibot/santhutagbot.git"><img align="center" alt="Heroku" width="52px" src="https://www.nicepng.com/jpg/full/223-2233246_heroku-logo-salesforce-heroku.png"></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Santhoshpodilibot/santhutagbot.git"><img align="center" alt="Heroku" width="52px" src="https://www.nicepng.com/png/full/223-2233246_heroku-logo-salesforce-heroku.png"></p>
 </p>
 
 
