@@ -26,14 +26,16 @@ async def start(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('ɴᴇᴛᴡᴏʀᴋ', 'https://t.me/santhuvc'),
-        Button.url('ᴏᴡɴᴇʀ', 'https://t.me/santhu_music_bot')
+        Button.url('ɴᴇᴛᴡᴏʀᴋ😁', 'https://t.me/santhuvc'),
+        Button.url('ᴏᴡɴᴇʀ💞', 'https://t.me/santhu_music_bot')
+        Button.url('ɴᴇᴛᴡᴏʀᴋ😇', 'https://t.me/santhubotupadates'),
       ]
     )
   )
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
+  "https://te.legra.ph/file/9043613927ec946522690.jpg"
   helptext = "**Help Menu of 📌sᴀɴᴛʜᴜ 𝐓𝐚𝐠 𝐀𝐥𝐥 𝐁𝐨𝐭**\n\nCommand: @all\n__You can use this command with text what you want to mention others.__\nExample: `@all Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nFollow [sᴀɴᴛʜᴜ](https://t.me/santhu_music_bot) 𝗢𝗡 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠"
   await event.reply(
     helptext,
@@ -42,6 +44,7 @@ async def help(event):
       [
         Button.url('ɴᴇᴛᴡᴏʀᴋ😁', 'https://t.me/santhuvc'),
         Button.url('ᴏᴡɴᴇʀ💞', 'https://t.me/santhu_music_bot')
+        Button.url('ɴᴇᴛᴡᴏʀᴋ😇', 'https://t.me/santhubotupadates'),
       ]
     )
   )
