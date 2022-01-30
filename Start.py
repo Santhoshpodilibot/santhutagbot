@@ -47,18 +47,30 @@ async def start(event):
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Help Menu of 📌sᴀɴᴛʜᴜ 𝐓𝐚𝐠 𝐀𝐥𝐥 𝐁𝐨𝐭**\n\nCommand: @all\n__You can use this command with text what you want to mention others.__\nExample: `@all Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nFollow [sᴀɴᴛʜᴏsʜ](https://t.me/santhu_music_bot) 𝗢𝗡 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠"
+  helptext = "**Help Menu of 📌sᴀɴᴛʜᴜ ᴍᴇɴᴛɪᴏɴ ʙᴏᴛ**\n\nCommand: @all\n__You can use this command with text what you want to mention others.__\nExample: `@all Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nFollow [sᴀɴᴛʜᴏsʜ](https://m.youtube.com/channel/UC7QMr8IDR65vciXrwx4XLiQ) 𝗢𝗡 ʏᴏᴜᴛᴜʙᴇ"
   await event.reply(
     helptext,
     link_preview=False,
-    buttons=(
-      [
-        Button.url('ᴏᴡɴᴇʀ💞', 'https://t.me/santhu_music_bot'),
-        Button.url('ɴᴇᴛᴡᴏʀᴋ📡', 'https://t.me/santhuvc')
-      ]
+    reply_markup=InlineKeyboardMarkup(      
+            [
+                [
+                    InlineKeyboardButton(
+                        "💞sᴀɴᴛʜᴜ ɴɪ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ💞", url="https://t.me/Santhuadvancefreemusicbot?startgroup=true")
+                  ],[
+                    InlineKeyboardButton(
+                        "☹️ᴏᴡɴᴇʀ😘", url="https://t.me/santhu_music_bot"
+                    ),
+                    InlineKeyboardButton(
+                        "😇ɢʀᴏᴜᴘ💞", url="https://t.me/santhuvc"
+                    )
+                ],[ 
+                    InlineKeyboardButton(
+                        "😁ɴᴇᴛᴡᴏʀᴋ😊", url="https://t.me/santhubotupadates"
+                    )]
+            ]
+       ),
     )
-  )
-  
+
 @client.on(events.NewMessage(pattern="^@all ?(.*)"))
 async def all(event):
   chat_id = event.chat_id
