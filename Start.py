@@ -29,7 +29,7 @@ async def start(event):
             [
                 [
                     InlineKeyboardButton(
-                        "💞sᴀɴᴛʜᴜ ɴɪ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ💞", url="https://t.me/Santhuadvancefreemusicbot?startgroup=true")
+                        "💞sᴀɴᴛʜᴜ ɴɪ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ💞", url="https://t.me/Santhugroupmentionbot?startgroup=true")
                   ],[
                     InlineKeyboardButton(
                         "☹️ᴏᴡɴᴇʀ😘", url="https://t.me/santhu_music_bot"
@@ -55,7 +55,7 @@ async def help(event):
             [
                 [
                     InlineKeyboardButton(
-                        "💞sᴀɴᴛʜᴜ ɴɪ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ💞", url="https://t.me/Santhuadvancefreemusicbot?startgroup=true")
+                        "💞sᴀɴᴛʜᴜ ɴɪ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ💞", url="https://t.me/Santhugroupmentionbot?startgroup=true")
                   ],[
                     InlineKeyboardButton(
                         "☹️ᴏᴡɴᴇʀ😘", url="https://t.me/santhu_music_bot"
