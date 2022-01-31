@@ -106,7 +106,7 @@ async def all(event):
       break
     usrnum += 1
     usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}) "
-    if usrnum == 𝟾:
+    if usrnum == 5:
       if mode == "text_on_cmd":
         txt = f"{usrtxt}\n\n{msg}\n\nMade bY  [sᴀɴᴛʜᴏsʜ](https://youtube.com/channel/UC7QMr8IDR65vciXrwx4XLiQ)"
         await client.send_message(chat_id, txt)
