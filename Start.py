@@ -28,7 +28,7 @@ async def start(event):
         Button.url('💞ᴏᴡɴᴇʀ💓', 'https://t.me/santhu_music_bot'),
         Button.url('😇ᴄʜᴀɴɴᴇʟ😊', 'https://t.me/santhubotupadates')
       ]
-        Button.url('😇ᴄʜᴀɴɴᴇʟ😊', 'https://t.me/Santhugroupmentionbot?startgroup=true")
+        Button.url('😉ɴᴀɴᴜ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ😊', 'https://t.me/Santhugroupmentionbot?startgroup=true")
       [
     ]
   ) 
