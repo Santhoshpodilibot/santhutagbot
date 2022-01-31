@@ -47,6 +47,8 @@ async def start(event):
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
+  await message.reply_photo(
+        photo=f"https://te.legra.ph/file/9043613927ec946522690.jpg",
   await event.reply(
   helptext = "**Help Menu of 📌sᴀɴᴛʜᴜ ᴍᴇɴᴛɪᴏɴ ʙᴏᴛ**\n\nCommand: @all\n__You can use this command with text what you want to mention others.__\nExample: `@all Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nFollow [sᴀɴᴛʜᴏsʜ](https://m.youtube.com/channel/UC7QMr8IDR65vciXrwx4XLiQ) 𝗢𝗡 ʏᴏᴜᴛᴜʙᴇ"
   await event.reply(
