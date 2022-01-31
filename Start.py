@@ -21,18 +21,27 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "__**𝐈'𝐦 📌𝐆𝐨𝐡𝐚𝐧 𝐓𝐚𝐠𝐀𝐥𝐥 𝐁𝐨𝐭**, 𝐢 𝐂𝐚𝐧 𝐌𝐞𝐧𝐭𝐢𝐨𝐧 𝐀𝐥𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 𝐎𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 👻\n𝐂𝐥𝐢𝐜𝐤 **/help** 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧__\n\n 𝐅𝐨𝐥𝐥𝐨𝐰 [𝐒𝐮𝐦𝐢𝐭𝐘𝐚𝐝𝐚𝐯](https://t.me/Simple_Mundaa) 𝗢𝗻 𝐓𝐞𝐥𝐞𝐆𝐫𝐚𝐦",
-    link_preview=False,
-    buttons=(
-      [
-        Button.url('💞ᴏᴡɴᴇʀ💓', 'https://t.me/santhu_music_bot'),
-        Button.url('😇ᴄʜᴀɴɴᴇʟ😊', 'https://t.me/santhubotupadates')
-      ]
-        Button.url('😉ɴᴀɴᴜ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ😊', 'https://t.me/Santhugroupmentionbot?startgroup=true")
-      [
-    ]
-  ) 
-) 
+    "__**𝐈'𝐦 📌sᴀɴᴛʜᴜ ᴍᴇɴᴛɪᴏɴ ʙᴏᴛ**, 𝐢 𝐂𝐚𝐧 𝐌𝐞𝐧𝐭𝐢𝐨𝐧 𝐀𝐥𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 𝐎𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 👻\n𝐂𝐥𝐢𝐜𝐤 **/help** 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧__\n\n 𝐅𝐨𝐥𝐥𝐨𝐰 [sᴀɴᴛʜᴏsʜ](https://t.me/santhu_music_bot) ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ",
+    link_preview=ғᴀʟsᴇ, 
+    reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "💞ᴀʀʏᴀ ɴɪ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ💞", url="https://t.me/Santhugroupmentionbot?startgroup=true")
+                  ],[
+                    InlineKeyboardButton(
+                        "☹️ᴏᴡɴᴇʀ😘", url="https://t.me/nenu_na_crush"
+                    ),
+                    InlineKeyboardButton(
+                        "😇ɢʀᴏᴜᴘ💞", url="https://t.me/friends_life_forever"
+                    )
+                ],[ 
+                    InlineKeyboardButton(
+                        "😁ɴᴇᴛᴡᴏʀᴋ😊", url="https://t.me/friends_life_forever"
+                    )]
+            ]
+       ),
+    )
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
