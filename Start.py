@@ -1,5 +1,5 @@
 import os, logging, asyncio
-from telethon import InlineKeyboardMarkup
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from telethon import TelegramClient, events
 from telethon.tl.types import ChannelParticipantAdmin
 from telethon.tl.types import ChannelParticipantCreator
