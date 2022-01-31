@@ -23,29 +23,29 @@ async def start(event):
   await event.reply(
     "__**𝐈'𝐦 📌sᴀɴᴛʜᴜ ᴍᴇɴᴛɪᴏɴ ʙᴏᴛ**, 𝐢 𝐂𝐚𝐧 𝐌𝐞𝐧𝐭𝐢𝐨𝐧 𝐀𝐥𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 𝐎𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 👻\n𝐂𝐥𝐢𝐜𝐤 **/help** 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧__\n\n 𝐅𝐨𝐥𝐥𝐨𝐰 [sᴀɴᴛʜᴏsʜ](https://t.me/santhu_music_bot) ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ",
     link_preview=False, 
-    reply_markup=InlineKeyboardMarkup(
-            [
+    buttons=(  
+      [
                 [
                     InlineKeyboardButton(
                         "💞ᴀʀʏᴀ ɴɪ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ💞", url="https://t.me/Santhugroupmentionbot?startgroup=true")
                   ],[
                     InlineKeyboardButton(
-                        "☹️ᴏᴡɴᴇʀ😘", url="https://t.me/nenu_na_crush"
+                        "☹️ᴏᴡɴᴇʀ😘", url="https://t.me/santhu_music_bot"
                     ),
                     InlineKeyboardButton(
-                        "😇ɢʀᴏᴜᴘ💞", url="https://t.me/friends_life_forever"
+                        "😇ɢʀᴏᴜᴘ💞", url="https://t.me/santhuvc"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "😁ɴᴇᴛᴡᴏʀᴋ😊", url="https://t.me/friends_life_forever"
+                        "😁ɴᴇᴛᴡᴏʀᴋ😊", url="https://t.me/santhubotupadates"
                     )]
             ]
        ),
     )
-
+    
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Help Menu of 📌sᴀɴᴛʜᴏsʜ ᴍᴇɴᴛɪᴏɴ ʙᴏᴛ**\n\nCommand: @all\n__You can use this command with text what you want to mention others.__\nExample: `@all Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nFollow [𝐒𝐮𝐦𝐢𝐭𝐘𝐚𝐝𝐚𝐯](https://youtube.com/channel/UC7QMr8IDR65vciXrwx4XLiQ) ʏᴏᴜᴛᴜʙᴇ "
+  helptext = "**Help Menu of 📌sᴀɴᴛʜᴏsʜ ᴍᴇɴᴛɪᴏɴ ʙᴏᴛ**\n\nCommand: @all\n__You can use this command with text what you want to mention others.__\nExample: `@all Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nFollow [sᴀɴᴛʜᴏsʜ](https://youtube.com/channel/UC7QMr8IDR65vciXrwx4XLiQ) ʏᴏᴜᴛᴜʙᴇ "
   await event.reply(
     helptext,
     link_preview=False,
